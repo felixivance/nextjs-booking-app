@@ -32,9 +32,36 @@ const roomSchema = new mongoose.Schema({
     },
     internet: {
         type: Boolean,
-        required: [true, 'Please enter if room has internet'],
         default: false
     },
+    breakfast: {
+        type: Boolean,
+        default: false
+    },
+    airConditioned: {
+        type: Boolean,
+        default: false
+    },
+    roomCleaning: {
+        type: Boolean,
+        default: false
+    },
+    ratings: {
+        type: Number,
+        default: 0
+    },
+    numOfReviews: {
+        type: Number,
+        default: 0
+    },
+    images: [
+        {
+            public_id: {
+                type: String,
+                required: true
+            },
+        }
+    ],
 });
 
 export default mongoose.model.Room || mongoose.model('Room', roomSchema)
