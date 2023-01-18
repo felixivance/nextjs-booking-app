@@ -6,9 +6,14 @@ const dbConnect = () => {
     }
 
     mongoose.connect(process.env.MONGODB_URI, {
-        useCreateIndex: true,
+        // useCreateIndex: true, //not supported
         useUnifiedTopology: true,
         useNewUrlParser: true,
-        useFindAndModify: false,
+        // useFindAndModify: false, //not supported
+        family: 4
     })
+    .then(con => console.log("MongoDB Database Connected"))
+    .catch(err => console.log(err))
 }
+
+export default dbConnect;
