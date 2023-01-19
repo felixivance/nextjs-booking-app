@@ -60,8 +60,16 @@ const roomSchema = new mongoose.Schema({
                 type: String,
                 required: true
             },
+            url: {
+                type: String,
+                required: true
+            }
         }
     ],
+    category: {
+        type: String,
+        required: [true, 'Please select room category'],
+    }
 });
 
 export default mongoose.model.Room || mongoose.model('Room', roomSchema)
