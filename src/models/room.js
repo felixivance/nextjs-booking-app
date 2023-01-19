@@ -77,6 +77,36 @@ const roomSchema = new mongoose.Schema({
             ],
             message:'Please select correct category for room'
         }
+    },
+    reviews: [
+        {
+            user: {
+                type: mongoose.Schema.ObjectId,
+                ref: 'User',
+                required: true
+            },
+            name: {
+                type: String,
+                required: true
+            },
+            rating: {
+                type: String,
+                required: true
+            },
+            comment: {
+                type: String,
+                required: true
+            }
+        }
+    ],
+    user: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'User',
+        required: true
+    },
+    created_at:{
+        type: Date,
+        default: Date.now
     }
 });
 
