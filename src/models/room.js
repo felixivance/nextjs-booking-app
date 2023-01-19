@@ -74,7 +74,8 @@ const roomSchema = new mongoose.Schema({
                 'King',
                 'Single',
                 'Twins'
-            ]
+            ],
+            message:'Please select correct category for room'
         }
     }
 });
