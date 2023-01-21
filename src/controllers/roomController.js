@@ -24,5 +24,5 @@ const newRoom = async ( req, res ) => {
 }
 
 export {
-    allRooms
+    allRooms, newRoom
 }
