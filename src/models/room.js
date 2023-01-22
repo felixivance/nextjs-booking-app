@@ -72,8 +72,8 @@ const roomSchema = new mongoose.Schema({
         enum: {
             values: [
                 'King',
-                'Single',
-                'Twins'
+                'Single Room',
+                'Twin Room'
             ],
             message:'Please select correct category for room'
         }
