@@ -71,7 +71,7 @@ const roomSchema = new mongoose.Schema({
         required: [true, 'Please select room category'],
         enum: {
             values: [
-                'King',
+                'King Room',
                 'Single Room',
                 'Twin Room'
             ],
