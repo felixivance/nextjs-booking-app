@@ -10,7 +10,7 @@ const allRooms = ( req, res ) => {
 // create new room => api/rooms
 const newRoom = async ( req, res ) => {
     try{
-        const room  = await Room.create(req())
+        const room  = await Room.create(req.body)
         res.status(200).json({
             success: true,
             message: 'New Room',
