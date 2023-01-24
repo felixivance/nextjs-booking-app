@@ -12,7 +12,7 @@ const dbConnect = () => {
         // useFindAndModify: false, //not supported
         family: 4
     })
-    .then(con => console.log("MongoDB Database Connected"))
+    .then(con => console.log("MongoDB Database Connected!"))
     .catch(err => console.log(err))
 }
 
