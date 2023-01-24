@@ -16,8 +16,8 @@ const newRoom = async ( req, res ) => {
             message: 'New Room',
             data: room
         })
-        
-    }catch(error){
+
+    } catch (error) {
         res.status(500).json({
             success: false,
             message: error.message
