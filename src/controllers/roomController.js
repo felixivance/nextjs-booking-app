@@ -1,7 +1,7 @@
 import Room from '../models/room.js'
 
 const allRooms = async ( req, res ) => {
-   try{
+   try {
 
     const rooms = await Room.find();
     
