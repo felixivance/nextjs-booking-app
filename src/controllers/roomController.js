@@ -36,7 +36,6 @@ const newRoom = async ( req, res ) => {
             message: error.message
         })
     }
-    
 }
 
 export {
