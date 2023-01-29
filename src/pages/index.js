@@ -76,8 +76,7 @@ export default function Home() {
 
           <a
             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
+            className={styles.card} target="_blank"
             rel="noopener noreferrer">
             <h2 className={inter.className}>
               Templates <span>-&gt;</span>
@@ -94,8 +93,7 @@ export default function Home() {
             rel="noopener noreferrer">
             <h2 className={inter.className}> Deploy <span>-&gt;</span> </h2>
             <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Felix.
+              Instantly deploy your Next.js site to a shareable URL with&nbsp;Felix.
             </p>
           </a>
         </div>
