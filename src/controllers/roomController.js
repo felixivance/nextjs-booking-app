@@ -2,7 +2,7 @@ import Room from '../models/room.js'
 
 const allRooms = async ( req, res ) => {
    try {
-
+    console.log(req);
     const rooms = await Room.find();
     
     res.status(200).json({
