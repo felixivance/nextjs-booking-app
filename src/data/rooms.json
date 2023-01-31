@@ -21,7 +21,7 @@
         "url": "https://res.cloudinary.com/bookit/image/upload/v1618590761/bookit/rooms/2_s1u52n.jpg"
       }
     ],
-    "category": "King"
+    "category": "King Room"
   },
   {
     "name": "Picturesque 2-Story Farmhouse w/Private Hot Tub",
@@ -41,7 +41,7 @@
         "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/3_quuli7.jpg"
       }
     ],
-    "category": "Twins"
+    "category": "Twin Room"
   },
   {
     "name": "Downtown Portsmouth Private Getaway! Hot Tub",
@@ -61,7 +61,7 @@
         "url": "https://res.cloudinary.com/bookit/image/upload/v1618590765/bookit/rooms/4_sju0ql.jpg"
       }
     ],
-    "category": "King"
+    "category": "King Room"
   },
   {
     "name": "Spacious Suite in a quiet Boston neighborhood.",
@@ -85,7 +85,7 @@
         "url": "https://res.cloudinary.com/bookit/image/upload/v1618590764/bookit/rooms/6_nwmr5f.jpg"
       }
     ],
-    "category": "Single"
+    "category": "Single Room"
   },
   {
     "name": "Shangri-La Hotel, Washington",
@@ -105,7 +105,7 @@
         "url": "https://res.cloudinary.com/bookit/image/upload/v1618590764/bookit/rooms/7_hshhzq.jpg"
       }
     ],
-    "category": "King"
+    "category": "King Room"
   },
   {
     "name": "Hotel Chimayo de Santa Fe Rooms",
@@ -125,7 +125,7 @@
         "url": "https://res.cloudinary.com/bookit/image/upload/v1618590765/bookit/rooms/8_crn0xy.jpg"
       }
     ],
-    "category": "Twins"
+    "category": "Twin Room"
   },
   {
     "name": "Hotel Garni Ischgl ☆ 4 star room comfort",
@@ -145,7 +145,7 @@
         "url": "https://res.cloudinary.com/bookit/image/upload/v1618590849/bookit/rooms/9_konrjf.jpg"
       }
     ],
-    "category": "Single"
+    "category": "Single Room"
   },
   {
     "name": "The Spa at Base Camp at Kerry Hotel",
@@ -165,6 +165,6 @@
         "url": "https://res.cloudinary.com/bookit/image/upload/v1618590840/bookit/rooms/10_w8w8yi.jpg"
       }
     ],
-    "category": "Single"
+    "category": "Single Room"
   }
 ]
