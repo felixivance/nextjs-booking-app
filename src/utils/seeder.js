@@ -22,6 +22,8 @@ const seedRooms = async () => {
 
         await Room.insertMany(rooms);
         console.log("all rooms are added");
+
+        process.exit();
     }catch(error){
         console.log(error.message);
         process.exit();
