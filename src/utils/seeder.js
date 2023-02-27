@@ -18,10 +18,11 @@ mongoose.connect('mongodb://0.0.0.0:27017/bookit', {
 const seedRooms = async () => {
     try{
         await Room.deleteMany();
-        
+
         console.log('Rooms are deleted');
 
         await Room.insertMany(rooms);
+        
         console.log("all rooms are added");
 
         process.exit();
