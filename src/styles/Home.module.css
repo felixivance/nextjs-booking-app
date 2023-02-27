@@ -167,7 +167,6 @@
   .thirteen::before {
     animation: none;
   }
-
   .card:hover span {
     transform: none;
   }
