@@ -10,8 +10,7 @@ mongoose.connect('mongodb://0.0.0.0:27017/bookit', {
     useNewUrlParser: true,
     // useFindAndModify: false, //not supported
     family: 4
-})
-.then(con => console.log("MongoDB Database Connected!"))
+}).then(con => console.log("MongoDB Database Connected!"))
 .catch(err => console.log(err))
 
 
@@ -28,7 +27,7 @@ const seedRooms = async () => {
         process.exit();
 
     }catch(error){
-        
+
         console.log(error.message);
 
         process.exit();
