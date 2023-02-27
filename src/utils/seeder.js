@@ -28,8 +28,9 @@ const seedRooms = async () => {
         process.exit();
 
     }catch(error){
-        console.log(error.message);
         
+        console.log(error.message);
+
         process.exit();
     }
 }
